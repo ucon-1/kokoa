@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Frineds - Kokoa Clone</title>
+    <title>Chats - Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -23,10 +23,13 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">Chats</h1>
       <div class="screen-header__icons">
         <span>
           <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+        </span>
+        <span>
+          <i class="fa-regular fa-comment-dots fa-lg"></i>
         </span>
         <span>
           <i class="fa-solid fa-music fa-lg"></i>
@@ -40,61 +43,38 @@
       </div>
     </header>
 
-    <a id="friends-display-link">
-      <i class="fa-solid fa-circle-info"></i> Friends' Names Display
-      <i class="fa-solid fa-chevron-right fa-xs"></i>
-    </a>
-
-    <main class="friends-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="https://i.namu.wiki/i/UbGo1GcpxnFO5_BRVS2wof7VlBDFk6Mls8Gv2E9fNQBf58SydoeC3bZnk-PaYFlrjueMG_KmutoDP6j9OwluIbWhXI7ZQ4SAuYTw8pJlaI4F7rSUz3QJm2ZBVNJT4Lwb2obhc5WhJv85cTr9fceZmA.webp"
-            class="user-component__avatar user-component__avatar--xl"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">ucon</h4>
-            <!-- <h6 class="user-component__subtitle">abcabcabc</h6> -->
+    <main class="main-screen">
+      <a href="chat.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://i.namu.wiki/i/3P0xq6ZY7Y4wNws_9YhtSBOFft8udqobdt9U7JuI6qDFmqfZXKiJfSD-zlNYq9iSWkVwI-9FDR8_kcRV6KQPFdsbCEzdMI0eE9el0rRI880YlENAHPpSbZsxoEIiacrBJtrXJ57XRUom3OXgvkMhnw.svg"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">KakaoTalk</h4>
+              <h6 class="user-component__subtitle">Please check My Kakao Account Info</h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">21:22</span>
+            <div class="badge">1</div>
           </div>
         </div>
-        <div class="user-component__column"></div>
-      </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span>
-          <i class="fa-solid fa-chevron-up fa-xs"></i>
-        </div>
-      </div>
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="https://i.namu.wiki/i/3P0xq6ZY7Y4wNws_9YhtSBOFft8udqobdt9U7JuI6qDFmqfZXKiJfSD-zlNYq9iSWkVwI-9FDR8_kcRV6KQPFdsbCEzdMI0eE9el0rRI880YlENAHPpSbZsxoEIiacrBJtrXJ57XRUom3OXgvkMhnw.svg"
-            class="user-component__avatar user-component__avatar--sm"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
-          </div>
-        </div>
-        <div class="user-component__column">
-          <div>
-            <span>2</span>
-            <i class="fa-solid fa-chevron-right fa-xs"></i>
-          </div>
-        </div>
-      </div>
+      </a>
     </main>
 
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html">
-            <i class="fa-solid fa-user fa-2x"></i>
+            <i class="fa-regular fa-user fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="nav__notification badge">1</span>
-            <i class="fa-regular fa-comment fa-2x"></i>
+            <i class="fa-solid fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
@@ -109,9 +89,6 @@
         </li>
       </ul>
     </nav>
-    <div id="splash-screen">
-      <i class="fa-solid fa-comment fa-2x"></i>
-    </div>
 
     <div id="no-mobile">
       <span>Your screen is too big</span>
